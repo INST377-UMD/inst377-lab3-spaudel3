@@ -52,3 +52,27 @@ body {
     display: inline-block; 
 }
 
+.main-content{
+    width:50%;
+    /* float:left;  */
+    margin:0;
+}
+
+.main-container{
+    background-color: indianred;
+    color:black;
+    border:2px solid black;
+    padding:5px;
+    border-radius: 15px;
+    margin:5px;
+}
+
+.rpsRules{
+    text-align: left;
+    background-color: indianred;
+    border:2px solid black;
+    padding:5px;
+    border-radius: 15px;
+    margin:5px;
+    float:right;
+}
