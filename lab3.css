@@ -59,13 +59,13 @@ body {
     padding:5px;
     border-radius: 15px;
     margin:5px;
-    width:50%;
-    margin:0;
+    width:65%;
     float:left;  
 }
 
 .rpsRules{
     text-align: left;
+    width:30%;
     background-color: indianred;
     border:2px solid black;
     padding:5px;
