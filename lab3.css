@@ -10,6 +10,7 @@ body {
     width:99%;
     font-family:monospace;
     margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 #main-nav{
@@ -52,26 +53,39 @@ body {
     display: inline-block; 
 }
 
+.main-container{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .main-content{
     background-color: indianred;
     color:black;
     border:2px solid black;
-    padding:5px;
+    padding: 10px;
     border-radius: 15px;
-    margin:5px;
+    margin-top:5px;
+    margin-bottom:5px;
     width:65%;
     float:left;  
 }
 
+#name:hover{
+    width:70%;
+}
+
 .rpsRules{
-    text-align: left;
     width:30%;
-    background-color: indianred;
+    background-color:yellow;
     border:2px solid black;
-    padding:5px;
+    padding:10px;
     border-radius: 15px;
     margin:5px;
     float:right;
+}
+
+.rpsRules:hover{
+    color:black;
+    background-color: gold;
 }
 
 .main-container{
