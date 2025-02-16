@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Rock, Paper, Scissors: Which Will it Be?</title>
+        <link rel="stylesheet" href="lab3.css">
+    </head>
+
+    <body>
+        <!-- Header Section -->
+        <div class="bar">
+            <header>
+                <h1>Rock Paper Scissors: The Ultimate Challenge!</h1>
+            </header>
+        </div>
+
+        <!-- Navigation -->
+        <nav id="main-nav">
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Rock_(geology)">ROCK</a></li>
+                <li><a href="https://www.britannica.com/technology/paper">PAPER</a></li>
+                <li><a href="https://www.encyclopedia.com/science-and-technology/technology/technology-terms-and-concepts/scissors">SCISSOR</a></li>
+            </ul>
+        </nav>
+
+         <!-- Main Text -->
+            <div class="main-container">
+                <h1>Try Your Luck!</h1>
+                <div class="main-content">
+                    <form name="mainForm">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" required>
+                        <br>
+                        <label for="choice">Rock, Paper, or Scissors?</label>
+                        <select name="choice" id="choice">
+                            <option hidden disabled selected>-- Select Option --</option>
+                            <option value="rock">Rock</option>
+                            <option value="paper">Paper</option>
+                            <option value="scissors">Scissors</option>
+                        </select>
+                        <br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+                <aside class="rpsRules">
+                    <h1><u>The Golden Rules</u></h1>
+                    <h2>Choose Rock, Paper, or Scissors</h2>
+                    <h2>The Holy Triangle of RPS:</h2>
+                    <ul>
+                        <li>Rock beats Scissors</li>
+                        <li>Scissors beat Paper</li>
+                        <li>Paper beats Rock</li>
+                    </ul>
+                </aside>
+            </div>
+
+         <!-- Footer -->
+        <div class="bar">
+            <footer id="bar">
+                <p>33% Chance of Success!</p>
+            </footer>
+        </div>
+    </body>
+</html>
